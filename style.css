@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000e69;
+  background-image: url("https://www.transparenttextures.com/patterns/rebel.png");
+
+}
+
+.MARCOSRYAN {
+  display: flex;
+  justify-content: center;
+  padding: 9%;
+}
+
+.topo {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.imagemTopo {
+  background-image: url(imagens/jjk-wallpaper.jpg); 
+  background-size: cover;
+  background-position: center;
+  height: 900px; /* Altura  para a imagem da frente*/
+  display: flex;
+  align-items: center; /* Centraliza os cards na vertical */
+  justify-content: center;
+  
+}
+
+.texto {
+  color: white;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.quadradoDosCard {
+  
+  display: flex;
+  justify-content: center; /* Centraliza os cards na horizontal */
+  padding: 10px;
+  transition: transform 1s;  /* Configuração da transição de 1 segundo para a propriedade transform */
+  transform: translateX(0) scale(0.8); /* Configuração inicial do estado transformado */
+  
+}
+
+.quadradoDosCard:hover, .quadradoDosCard:focus {
+   transform: translateX(10px) scale(1.0);
+}
+
+.card {
+  background-color: white;
+  box-shadow: white;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  margin-right: 20px; /* Adiciona espaçamento entre os cards */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.conteudo {
+  padding: 15px;
+}
+
+.conteudo h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.conteudo p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.rodape {
+  color: white;
+  text-align: center;
+}
